@@ -17,14 +17,14 @@ We provide some tips for MMAction2 installation in this file.
 
 ## Requirements
 
-- Linux (Windows is not officially supported)
-- Python 3.6+
-- PyTorch 1.3+
-- CUDA 9.2+ (If you build PyTorch from source, CUDA 9.0 is also compatible)
-- GCC 5+
-- [mmcv](https://github.com/open-mmlab/mmcv) 1.1.1+
-- Numpy
-- ffmpeg (4.2 is preferred)
+- Linux (Windows is not officially supported) ## use windows
+- Python 3.6+ ## done
+- PyTorch 1.3+ ##
+- CUDA 9.2+ (If you build PyTorch from source, CUDA 9.0 is also compatible) ##
+- GCC 5+ ##
+- [mmcv](https://github.com/open-mmlab/mmcv) 1.1.1+ ##
+- Numpy ##
+- ffmpeg (4.2 is preferred) ##
 - [decord](https://github.com/dmlc/decord) (optional, 0.4.1+): Install CPU version by `pip install decord==0.4.1` and install GPU version from source
 - [PyAV](https://github.com/mikeboers/PyAV) (optional): `conda install av -c conda-forge -y`
 - [PyTurboJPEG](https://github.com/lilohuang/PyTurboJPEG) (optional): `pip install PyTurboJPEG`
@@ -50,7 +50,7 @@ If mmcv and mmcv-full are both installed, there will be `ModuleNotFoundError`.
 ## Prepare environment
 
 a. Create a conda virtual environment and activate it.
-
+## done
 ```shell
 conda create -n open-mmlab python=3.7 -y
 conda activate open-mmlab
@@ -80,6 +80,7 @@ conda install pytorch=1.3.1 cudatoolkit=9.2 torchvision=0.4.2 -c pytorch
 ```
 
 If you build PyTorch from source instead of installing the prebuilt package, you can use more CUDA versions such as 9.0.
+## done
 
 ## Install MMAction2
 
@@ -124,6 +125,7 @@ Or directly run
 pip install mmcv-full
 # alternative: pip install mmcv
 ```
+## done to install mmcv
 
 **Important:** You need to run `pip uninstall mmcv` first if you have mmcv installed. If mmcv and mmcv-full are both installed, there will be `ModuleNotFoundError`.
 
@@ -140,7 +142,7 @@ c. Install build requirements and then install MMAction2.
 pip install -r requirements/build.txt
 pip install -v -e .  # or "python setup.py develop"
 ```
-
+## done again
 If you build MMAction2 on macOS, replace the last command with
 
 ```shell
