@@ -19,12 +19,12 @@ We provide some tips for MMAction2 installation in this file.
 
 - Linux (Windows is not officially supported) ## use windows
 - Python 3.6+ ## done
-- PyTorch 1.3+ ##
-- CUDA 9.2+ (If you build PyTorch from source, CUDA 9.0 is also compatible) ##
+- PyTorch 1.3+ ## done
+- CUDA 9.2+ (If you build PyTorch from source, CUDA 9.0 is also compatible) ## done
 - GCC 5+ ##
-- [mmcv](https://github.com/open-mmlab/mmcv) 1.1.1+ ##
-- Numpy ##
-- ffmpeg (4.2 is preferred) ##
+- [mmcv](https://github.com/open-mmlab/mmcv) 1.1.1+ ## done
+- Numpy ## done
+- ffmpeg (4.2 is preferred) ## done
 - [decord](https://github.com/dmlc/decord) (optional, 0.4.1+): Install CPU version by `pip install decord==0.4.1` and install GPU version from source
 - [PyAV](https://github.com/mikeboers/PyAV) (optional): `conda install av -c conda-forge -y`
 - [PyTurboJPEG](https://github.com/lilohuang/PyTurboJPEG) (optional): `pip install PyTurboJPEG`
