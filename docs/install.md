@@ -21,13 +21,13 @@ We provide some tips for MMAction2 installation in this file.
 - Python 3.6+ ## done
 - PyTorch 1.3+ ## done
 - CUDA 9.2+ (If you build PyTorch from source, CUDA 9.0 is also compatible) ## done
-- GCC 5+ ##
+- GCC 5+ ## 
 - [mmcv](https://github.com/open-mmlab/mmcv) 1.1.1+ ## done
 - Numpy ## done
 - ffmpeg (4.2 is preferred) ## done
-- [decord](https://github.com/dmlc/decord) (optional, 0.4.1+): Install CPU version by `pip install decord==0.4.1` and install GPU version from source
-- [PyAV](https://github.com/mikeboers/PyAV) (optional): `conda install av -c conda-forge -y`
-- [PyTurboJPEG](https://github.com/lilohuang/PyTurboJPEG) (optional): `pip install PyTurboJPEG`
+- [decord](https://github.com/dmlc/decord) (optional, 0.4.1+): Install CPU version by `pip install decord==0.4.1` and install GPU version from source ## done
+- [PyAV](https://github.com/mikeboers/PyAV) (optional): `conda install av -c conda-forge -y` ## done
+- [PyTurboJPEG](https://github.com/lilohuang/PyTurboJPEG) (optional): `pip install PyTurboJPEG` ## done
 - [denseflow](https://github.com/open-mmlab/denseflow) (optional): See [here](https://github.com/innerlee/setup) for simple install scripts.
 - [moviepy](https://zulko.github.io/moviepy/) (optional): `pip install moviepy`. See [here](https://zulko.github.io/moviepy/install.html) for official installation. **Note**(according to [this issue](https://github.com/Zulko/moviepy/issues/693)) that:
     1. For Windows users, [ImageMagick](https://www.imagemagick.org/script/index.php) will not be automatically detected by MoviePy,
