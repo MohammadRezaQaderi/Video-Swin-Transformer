@@ -1,0 +1,27 @@
+{
+    "---QUuC4vJs": { 
+     "annotations": {
+      "label": "testifying",
+      "segment": [
+       84.0,
+       94.0
+      ]
+     },
+     "duration": 10.0,
+     "subset": "validate",
+     "url": "https://www.youtube.com/watch?v=---QUuC4vJs"
+    },
+    "--GkrdYZ9Tc": {
+     "annotations": {
+      "label": "washing feet",
+      "segment": [
+       0.0,
+       10.0
+      ]
+     },
+     "duration": 10.0,
+     "subset": "validate",
+     "url": "https://www.youtube.com/watch?v=--GkrdYZ9Tc"
+    }
+   }
+   
